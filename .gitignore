@@ -1,0 +1,102 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Streamlit
+.streamlit/
+.streamlit/config.toml
+
+# Logs
+logs/
+*.log
+*.logs
+
+# OS
+.DS_Store
+Thumbs.db
+.gitkeep
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache
+.cache/
+*.cache
+
+# Documentation
+docs/_build/
+
+# Project Files (Not for Version Control)
+PROJECT_SUMMARY.md
+QUICKSTART.txt
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# User-specific files
+*.sublime-workspace
+.~*

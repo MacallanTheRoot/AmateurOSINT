@@ -1,0 +1,39 @@
+# AmateurOSINT - Profesyonel OSINT Araştırma Platformu
+# Tüm gerekli bağımlılıklar
+
+# Web Framework & UI
+streamlit>=1.28.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.23.0
+
+# HTTP & Network
+requests>=2.31.0
+dnspython>=2.4.0
+python-whois>=0.9.3
+
+# Search & Scraping
+duckduckgo-search>=3.9.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# File Processing
+Pillow>=10.0.0
+PyPDF2>=3.0.0
+fpdf>=1.7.2
+
+# Visualization & Network
+pyvis>=0.3.2
+networkx>=3.0
+
+# Utilities
+python-dateutil>=2.8.2
+urllib3>=2.0.0
+
+# Optional: Advanced OSINT APIs
+# Uncomment için kendi API keylerinizi ekleyin
+# shodan>=1.29.0
+# censys>=2.1.10
+# virustotal-python>=1.2
+
