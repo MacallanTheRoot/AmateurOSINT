@@ -1,15 +1,19 @@
-# Python
+# Python bytecode and build artifacts
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
-.Python
-env/
+
+# Python environments
+.venv/
 venv/
-.venv
 ENV/
+env/
+env.bak/
+venv.bak/
+
+# Packaging/build outputs
 build/
-develop-eggs/
 dist/
 downloads/
 eggs/
@@ -26,7 +30,10 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
+# Test/coverage caches
 .pytest_cache/
+.hypothesis/
 .coverage
 .coverage.*
 htmlcov/
@@ -34,69 +41,53 @@ nosetests.xml
 coverage.xml
 *.cover
 *.py,cover
-.hypothesis/
 
-# Virtual Environment
-.venv/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# IDEs
+# IDE/editor files
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
-.DS_Store
 .project
 .pydevproject
 .settings/
 *.sublime-project
 *.sublime-workspace
+.~*
 
-# Environment
+# Environment files
 .env
 .env.local
 .env.*.local
 
-# Streamlit
+# Streamlit local state
 .streamlit/
-.streamlit/config.toml
 
 # Logs
 logs/
 *.log
 *.logs
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
-.gitkeep
 
-# Database
+# Local databases
 *.db
 *.sqlite
 *.sqlite3
 
-# Cache
+# Generic cache/temp
 .cache/
 *.cache
-
-# Documentation
-docs/_build/
-
-# Project Files (Not for Version Control)
-PROJECT_SUMMARY.md
-QUICKSTART.txt
-
-# Temporary Files
 *.tmp
 *.temp
 temp/
 tmp/
 
-# User-specific files
-*.sublime-workspace
-.~*
+# Docs build
+docs/_build/
+
+# Local project notes
+PROJECT_SUMMARY.md
+QUICKSTART.txt

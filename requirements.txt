@@ -10,11 +10,15 @@ numpy>=1.23.0
 
 # HTTP & Network
 requests>=2.31.0
+aiohttp>=3.9.0
 dnspython>=2.4.0
 python-whois>=0.9.3
 
+# Database
+SQLAlchemy>=2.0.0
+
 # Search & Scraping
-duckduckgo-search>=3.9.0
+ddgs>=6.0.0
 beautifulsoup4>=4.12.0
 lxml>=4.9.0
 
@@ -30,6 +34,7 @@ networkx>=3.0
 # Utilities
 python-dateutil>=2.8.2
 urllib3>=2.0.0
+python-dotenv>=1.0.0
 
 # Optional: Advanced OSINT APIs
 # Uncomment için kendi API keylerinizi ekleyin
